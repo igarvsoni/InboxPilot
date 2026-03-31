@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "InboxPilot",
+  "description": "Smart email replies, task & event extraction for Gmail",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "http://localhost:8080/*",
+    "*://mail.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

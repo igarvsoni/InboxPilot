@@ -1,0 +1,8 @@
+.ai-reply-btn:hover {
+  background-color: #1557b0 !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.ai-reply-btn:active {
+  background-color: #0d47a1 !important;
+}
