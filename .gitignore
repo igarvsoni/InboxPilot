@@ -23,3 +23,7 @@ inboxpilot-ui/dist/
 
 # Claude Code
 .claude/
+
+# Local docs — not pushed to GitHub
+CHANGES.md
+DOCS.md
